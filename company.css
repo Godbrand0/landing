@@ -47,10 +47,20 @@ li,a{
     cursor: pointer;
     color: #000;
     text-decoration: none;
+    transition: all o.5s;
 }
 a:hover{
     background: var(--hover);
     color: #fff;
+    letter-spacing: 2px;
+}
+p{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+p:hover{
+    background: var(--light-color);
+    letter-spacing: 2px;
 }
 li{
     margin-right: 30px;
